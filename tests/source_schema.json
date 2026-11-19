@@ -1,0 +1,97 @@
+{
+  "products": [
+    [
+      "sku",
+      "name",
+      "pack"
+    ],
+    [
+      "sku"
+    ]
+  ],
+  "stores": [
+    [
+      "store",
+      "city",
+      "finance_contact",
+      "store_contact",
+      "valid_from"
+    ],
+    [
+      "store",
+      "valid_from"
+    ]
+  ],
+  "sales": [
+    [
+      "line",
+      "order",
+      "sold_day",
+      "attribution_store",
+      "redemption_store",
+      "channel",
+      "sku",
+      "units",
+      "list_cents",
+      "product_cost_cents",
+      "coupon_cents",
+      "outside_subsidy_cents",
+      "trip"
+    ],
+    [
+      "line"
+    ]
+  ],
+  "freight": [
+    [
+      "trip",
+      "rev",
+      "known_at",
+      "cents",
+      "memo"
+    ],
+    [
+      "trip",
+      "rev"
+    ]
+  ],
+  "billable": [
+    [
+      "line",
+      "rev",
+      "known_at",
+      "chargeable_kg"
+    ],
+    [
+      "line",
+      "rev"
+    ]
+  ],
+  "refunds": [
+    [
+      "refund",
+      "line",
+      "paid_at",
+      "cash_out_cents",
+      "recovered_product_cost_cents"
+    ],
+    [
+      "refund"
+    ]
+  ],
+  "recaps": [
+    [
+      "recap",
+      "scope",
+      "through",
+      "cutoff",
+      "delivered_ack",
+      "assigned_root",
+      "owner",
+      "resolution"
+    ],
+    [
+      "recap"
+    ]
+  ]
+}
